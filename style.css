@@ -1,0 +1,44 @@
+:root {
+    --base: #ff6600;
+    --padding: 0px;
+    --blur: 10px;
+  }
+
+  img {
+    padding: var(--padding);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
+
+  .container {
+    display: flex;
+  justify-content: space-around;
+  }
+
+  input{
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+
+  /*
+    misc styles, nothing to do with CSS variables
+  */
+
+  body {
+    padding-top: 80px;
+    background: #193549;
+    color: white;
+    font-family: 'arial', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+    display: block;
+  }
